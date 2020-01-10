@@ -16,7 +16,7 @@ chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
             break;
 
         case 'translate':
-            let url = 'https://script.google.com/macros/s/AKfycbwwX48LT8hCFGIIlJ5-tQRSL__N3FQ2CFDe1LeV8dC4_3hVj7xY/exec';
+            let url = 'https://script.google.com/macros/s/AKfycbzXx3VMG8_i8zRr23p1EwYJbLmyJ75DDtmnfh1Y5Zz5dZYxfjqC/exec';
             let senddata = {
                 text: msg.text,
                 source: source,
